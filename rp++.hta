@@ -1,0 +1,16 @@
+<html>
+<head>
+<hta:application Applicationname=rp++ Caption=no SingleInstance=yes MaximizeButton=no border=thin maximizebutton="no" scroll=no>
+<SCRIPT LANGUAGE="VBScript">
+a=0
+me.resizeto 110,100
+</script>
+</head>
+<body>
+<SCRIPT FOR="rp++" EVENT="onClick">
+a=a+1
+document.getElementById("rp").innerHTML = a
+</script>
+Your rp:
+<a id="rp">0</a><br>
+<INPUT TYPE="Button" NAME="rp++" VALUE="rp++">
